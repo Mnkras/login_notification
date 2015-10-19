@@ -15,6 +15,7 @@ ob_start();
     <br />
     <?php echo t('Date and Time: %s', $date_time);?><br />
     <?php echo t('User Agent: %s', $user_agent);?><br />
+    <?php echo t('IP Address: %s', $ip_address);?><br />
     <br />
     <?php echo t('If the information above looks familiar, you can disregard this email.'); ?><br />
     <br />
@@ -40,6 +41,7 @@ ob_start();
 
     echo t('Date and Time: %s', $date_time);
     echo t('User Agent: %s', $user_agent);
+    echo t('IP Address: %s', $ip_address);
 
     echo t('If the information above looks familiar, you can disregard this email.');
 
