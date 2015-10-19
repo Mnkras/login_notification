@@ -1,8 +1,6 @@
 <?php
 namespace Concrete\Package\LoginNotification;
 
-use Concrete\Core\Logging\Logger;
-use Detection\MobileDetect;
 use Request;
 
 class Controller extends \Package
